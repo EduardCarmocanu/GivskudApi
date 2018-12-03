@@ -5,12 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20181201135344_DecimalCoordinatesPrecisionAndRequiredAttributes.cs" />
+    <Compile Remove="Migrations\20181201135344_DecimalCoordinatesPrecisionAndRequiredAttributes.Designer.cs" />
+    <Compile Remove="Migrations\20181202085653_DescriptionID.cs" />
+    <Compile Remove="Migrations\20181202085653_DescriptionID.Designer.cs" />
+    <Compile Remove="Migrations\20181202085725_DescriptionID.cs" />
+    <Compile Remove="Migrations\20181202085725_DescriptionID.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
 </Project>
